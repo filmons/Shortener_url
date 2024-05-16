@@ -1,0 +1,6 @@
+# .air.toml
+root = "." # go project root
+build = "go build -o ./tmp/main ."
+cmd = "./tmp/main"
+include_ext = ["go", "tpl", "tmpl", "html"]
+exclude_dir = ["assets", "tmp", "vendor"]

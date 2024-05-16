@@ -1,0 +1,5 @@
+    Unit Tests (unit/): Contains unit tests for the domain, application, and utility packages. Each package typically has its own test file, such as todo_test.go, user_test.go, todo_service_test.go, etc. Unit tests focus on testing individual units of code in isolation, such as functions, methods, or classes.
+
+    Integration Tests (integration/): Contains integration tests that test the interaction between different components of your application, such as APIs, controllers, and repositories. Integration tests ensure that these components work together correctly.
+
+    Mocks (mocks/): Contains mock implementations used for testing. Mocks are used to simulate the behavior of external dependencies, such as databases or external services, in order to isolate the code being tested.
